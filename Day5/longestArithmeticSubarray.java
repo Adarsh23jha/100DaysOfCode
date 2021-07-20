@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class longestArithmeticSubarray {
     static int calculate(int a[], int k) {

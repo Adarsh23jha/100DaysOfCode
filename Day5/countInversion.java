@@ -5,7 +5,7 @@ public class countInversion {
         int counter = 0;
         for (int j = 0; j < a.length - 1; j++) {
             for (int i = j + 1; i < a.length; i++) {
-                if (a[j]  a[i]) {
+                if (a[j] < a[i]) {
                     counter++;
 
                 }
